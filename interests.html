@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohail Says - Interests</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps:wght@700&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Poppins:wght@300&family=Roboto+Condensed:wght@300;400&family=Square+Peg&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        header{
+            background: black;
+            position: sticky;
+            top:0;
+            
+            
+            color:white;
+           
+        }
+        nav ul{
+            list-style: circle;
+            height:80px;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        nav ul li{
+
+            list-style: none;
+            display: inline-block;
+            padding:20px;
+
+        }
+        nav ul li a{
+            display: inline-block;
+            color:white;
+            text-decoration: none;
+            font-family: 'Oleo Script Swash Caps';
+        }
+        footer{
+            font-family: 'Oleo Script Swash Caps','Lato','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+            padding:20px;
+            height:40px;
+            background: black;
+            color:white;
+            
+        
+        }
+        .text-center{
+            text-align: center;
+        }
+        main{
+            background-image: url('int.jpg');
+            height: 2250px;
+            width:1225px
+        }
+        .class{
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+            padding:20px;
+            font-family: 'Mouse Memoirs';
+            color:white;
+        }
+        .box h1{
+            margin-left: 30px;
+            font-family: 'Poppins';
+            font-size: 30px;
+            color:darksalmon;
+            
+        }
+        .box img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height:50vh;
+            width:30vw;
+            border-style: solid;
+            border-color:azure;
+            border-width: 2px;
+        }
+        .box p{
+            margin-top:8px;
+            margin-left: 30px;
+            margin-right: 350px;
+            color:whitesmoke;
+            font-family: 'Roboto Condensed';
+        }
+        .box1 h1{
+            margin-top: 10px;
+            margin-left: 30px;
+            font-family: 'Poppins';
+            font-size: 30px;
+            color:darksalmon;
+        }
+        .box1 img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height:50vh;
+            width:30vw;
+            border-style: solid;
+            border-color:azure;
+            border-width: 2px;
+        }
+        .box1 p{
+            margin-top:8px;
+            margin-left: 30px;
+            margin-right: 350px;
+            color:whitesmoke;
+            font-family: 'Roboto Condensed';
+        }
+        .box2 h1{
+            margin-top: 10px;
+            margin-left: 30px;
+            font-family: 'Poppins';
+            font-size: 30px;
+            color:darksalmon;
+        }
+        .box2 img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height:50vh;
+            width:30vw;
+            border-style: solid;
+            border-color:azure;
+            border-width: 2px;
+        }
+        .box2 p{
+            margin-top:8px;
+            margin-left: 30px;
+            margin-right: 350px;
+            color:whitesmoke;
+            font-family: 'Roboto Condensed';
+        }
+        .box3 h1{
+            margin-top: 10px;
+            margin-left: 30px;
+            font-family: 'Poppins';
+            font-size: 30px;
+            color:darksalmon;
+        }
+        .box3 img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height:50vh;
+            width:30vw;
+            border-style: solid;
+            border-color:azure;
+            border-width: 2px;
+        }
+        .box3 p{
+            margin-top:8px;
+            margin-left: 30px;
+            margin-right: 350px;
+            color:whitesmoke;
+            font-family: 'Roboto Condensed';
+        }
+        .box4 h1{
+            margin-top: 10px;
+            margin-left: 30px;
+            font-family: 'Poppins';
+            font-size: 30px;
+            color:darksalmon;
+        }
+        .box4 img{
+            margin-top: 10px;
+            margin-left: 30px;
+            height:50vh;
+            width:30vw;
+            border-style: solid;
+            border-color:azure;
+            border-width: 2px;
+        }
+        .box4 p{
+            margin-top:8px;
+            margin-left: 30px;
+            margin-right: 350px;
+            color:whitesmoke;
+            font-family: 'Roboto Condensed';
+        }
+
+       
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <ul>
+                <li><a href="/index.html"><h3>Home</h3></a></li>
+                <li><a href="/youtube.html" target="_blank"><h3>Content</h3></a></li>
+                <li><a href="/interests.html" target="_blank"><h3>Interests</h3></a></li>
+                <li><a href="/contact.html"><h3>Contact</h3></a></li>
+            </ul>
+
+        </nav>
+        
+        
+    </header>
+    <main>
+        <div class="class">
+            <caption>Hobbies And Interests</caption>
+        </div>
+        <div class="box">
+            <h1>Learning New technologies</h1>
+            <img src="code.jpg" alt="">
+            <p>I love learning new technologies. I keep updated myself with
+                newly emerging technologies. In this modern world the technology 
+                is getting increased day by day. The world is completely getting
+                evolved through technologies. To keep up pace with technology one
+                must need to learn different technologies</p>
+        </div>
+        <div class="box1">
+            <h1>Content Creation</h1>
+            <img src="content.jpg" alt="">
+            <p>I love sharing knowledge with people through content creation.
+                I keep creating content on various platforms like Youtube, LinkedIn,
+                Instagram. The content that I create is completely about Technologies,
+                Cinematic films and photographs.
+            </p>
+        </div>
+        <div class="box2">
+            <h1>Travelling</h1>
+            <img src="travel.jpg" alt="">
+            <p>I do travel to new places every year. My major aim in life is to explore
+            the most countries in the world. I do exploring to connect with nature and
+            various types of people all over the world. Travelling makes me better in life.
+            </p>
+        </div>
+        <div class="box3">
+            <h1>Fitness</h1>
+            <img src="fit.jpg" alt="">
+            <p>I like to keep my body always in a good shape. I believe in saying "A healthy
+                body leads to a healthy life". Where ever I go, I won't stop doing workouts, they
+                may be either weight lifting or cardio vascular exercises</p>
+        </div>
+        <div class="box4">
+            <h1>Photography</h1>
+            <img src="camera.jpg" alt="">
+            <p>Photography is my one of hobby. I take pictures so that, I can keep them as 
+                memories in life. I have collection of some great photographs that I took.
+                Soon, I will add a section of photographs in this blog and then I will add 
+                the pictures to it.</p>
+        </div>
+
+    </main>
+    <footer>
+        <p class="text-center">SaysMedia&copy;2022</p>
+
+    </footer>
+    
+</body>
+</html>
